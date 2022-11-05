@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(rgba(134, 2, 2, 0.582), #aca9a9);
+    margin: auto;
+    padding: 2px;
+    border: 0px;
+
+}
+.carousel-inner > .carousel-item > img {
+
+    border: 2px solid green;
+    height: 620px;
+    width: 75%;
+    margin: auto;
+    position:static
+}
+
+.card-img-top{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.card-img-top:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+.card-img-top02{
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.card-img-top02:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px #000);
+    filter: drop-shadow(15px 10px 5px #000)
+}
+
+#conteudo{
+    border: 2px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}

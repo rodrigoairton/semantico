@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <title>SITE SEMÂNTICO</title>
+</head>
+
+<body>
+
+  <!--Menu NavBAR-->
+  <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index:999;">
+
+    <div class="container-fluid col-10 m-auto">
+      <a class="navbar-brand" href="#">Qatar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grupo.html">Fase de Grupos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tabela.html">Tabela</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Faça o Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!--Links Menu-->
+        <div class="collapse navbat-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Qatar</a>
+            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="grupo.html">Fase de Grupos</a>
+            <a class="nav-link" href="tabela.html">Tabela</a>
+            <a class="nav-link" href="login.html">Faça o Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Menu NavBar-->
+
+  <!--Carrossel-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../semantico/homeimg/taça.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../semantico/homeimg/copa03.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../semantico/homeimg/copa02.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Carrossel-->
+  <br>
+
+  <!--Conteúdo-->
+  <hr class="col-11 m-auto">
+  <div id="conteudo" class="col11 m-auto">
+    <h2 class="text-center"> COPA DO MUNDO 2022</h2>
+    <p align="justify">A vigésima segunda edição deste evento esportivo, um torneio internacional de futebol masculino
+      organizado pela
+      Federação Internacional de Futebol (FIFA), que ocorrerá no Catar. A edição de 2022 será a primeira realizada no
+      Oriente Médio e a última a ter o formato de 32 equipes, já que a competição terá uma mudança no formato e número
+      de equipes na edição de 2026, onde será sediado no Canadá, Estados Unidos e México, passando para 48 equipes. <br>
+      Com sete cidades-sede, o campeonato será disputado entre 20 de novembro e 18 de dezembro, ao invés do período
+      tradicional graça às altas temperaturas que o país sofre no meio do ano; esta é a primeira vez em que uma copa do
+      mundo será disputada no final do ano.</p>
+  </div>
+  <hr class="col-11 m-auto">
+  <br><br>
+  <!--Conteúdo-->
+
+  <!--Cards-->
+  <div class="row row-cols-1 row-cols-md-2 col-11 m-auto">
+    <div class="col">
+      <div class="card">
+        <img src="../semantico/homeimg/copa04.jpeg" class="card-img-top02" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grupos da Copa 2022</h5>
+          <p class="card-text">Em evento realizado em Doha, capital do Qatar, entidade máxima do futebol (FIFA)
+            determina os grupos do torneio. Competição acontece entre novembro e dezembro de 2022. Confira como
+            ficou.</p>
+          <!-- Button trigger modal -->
+          <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#primeirocard">Ver mais. . .</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="primeirocard" tabindex="-1" role="dialog" aria-labelledby="primeirocardLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="primeirocardLabel">Grupos</h5>
+                  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button> -->
+                </div>
+                <div class="modal-body">
+
+                  <img src="../semantico/homeimg/fasegrupo.jpg" class="card-img-top" alt="...">
+                  <p class="card=text"> De volta à liderança do ranking da Fifa, a Seleção Brasileira caiu no Grupo G,
+                    ao lado de Sérvia, Suíça e Camarões. As chamadas "chaves da morte" ficaram para Argentina, Espanha e
+                    Portugal, nos Grupos C, E e H, respectivamente.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="../semantico/homeimg/copa05.jpeg" class="card-img-top02" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Tabela Completa de Jogos</h5>
+          <p class="card-text">A Copa do Mundo do Qatar começa em Novembro, e as datas e horários dos jogos
+            tanto da fase de grupos quanto da fase mata-mata já estão definidos. Brasil estréia dia 24/11/2022.</p>
+          <!-- Button trigger modal -->
+          <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#segundocard">Ver mais. . .</a>
+
+          <!-- Modal -->
+          <div class="modal fade" id="segundocard" tabindex="-1" role="dialog" aria-labelledby="segundocardLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="segundocardLabel">Tabela</h5>
+                  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button> -->
+                </div>
+                <div class="modal-body">
+
+                  <img src="../semantico/homeimg/tabela-copa-2022-fase-grupos.jpg" class="card-img-top" alt="...">
+                  <p class="card=text"> De volta à liderança do ranking da Fifa, a Seleção Brasileira caiu no Grupo G,
+                    ao lado de Sérvia, Suíça e Camarões. As chamadas "chaves da morte" ficaram para Argentina, Espanha e
+                    Portugal, nos Grupos C, E e H, respectivamente.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--Rodapé-->
+  <footer class="page-footer p-5 col-11 m-auto" style="background-color: #333">
+    <div class="text-center">
+      <a href="#">@2022 Copyright: Rodrigo Airton</a>
+    </div>
+  </footer>
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
